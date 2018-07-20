@@ -4,7 +4,7 @@ Print labels from edc modules
 
 ### Setup
 
-    pip install git+https://github.com/botswana-harvard/edc-label@develop#egg=edc_label
+    pip install git+https://github.com/clinicedc/edc-label@develop#egg=edc_label
     
 if you get an error installing on MACOSX, try
     
