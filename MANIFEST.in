@@ -1,4 +1,4 @@
-include AUTHORS CHANGES README.rst LICENCE VERSION
+include AUTHORS CHANGES README.rst LICENSE VERSION
 recursive-include edc_label/templates *
 recursive-include edc_label/static *
 recursive-include label_templates *
