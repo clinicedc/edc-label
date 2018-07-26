@@ -1,13 +1,16 @@
-# edc-label
+|pypi| |travis| |coverage|
+
+edc-label
+---------
+
 Print labels from edc modules
 
 
-### Setup
-
-    pip install git+https://github.com/clinicedc/edc-label@develop#egg=edc_label
+.. |pypi| image:: https://img.shields.io/pypi/v/edc-label.svg
+    :target: https://pypi.python.org/pypi/edc-label
     
-if you get an error installing on MACOSX, try
+.. |travis| image:: https://travis-ci.org/clinicedc/edc-label.svg?branch=develop
+    :target: https://travis-ci.org/clinicedc/edc-label
     
-    CFLAGS=-Wno-error=declaration-after-statement pip install -U pycups
-    
-    (suggestion from http://stackoverflow.com/questions/34040118/error-updating-pycups-via-pip)
+.. |coverage| image:: https://coveralls.io/repos/github/clinicedc/edc-label/badge.svg?branch=develop
+    :target: https://coveralls.io/github/clinicedc/edc-label?branch=develop
