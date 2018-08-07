@@ -26,6 +26,8 @@ setup(
     zip_safe=False,
     keywords='django EDC barcode labeling',
     install_requires=[
+        'edc-auth',
+        'edc-base',
         'pycups',
     ],
     classifiers=[
