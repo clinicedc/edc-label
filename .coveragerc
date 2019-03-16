@@ -1,3 +1,4 @@
+[run]
 include = edc_label/*
 omit = edc_label/tests/*,edc_label/migrations/*
 branch = 1
