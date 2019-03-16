@@ -1,9 +1,10 @@
-|pypi| |travis| |coverage|
+|pypi| |travis| |codecov| |downloads|
+
 
 edc-label
 ---------
 
-Print labels from edc modules
+Print labels from for clinic/edc projects
 
 
 
@@ -61,8 +62,11 @@ Add an IP addressable remote printer
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-label.svg
     :target: https://pypi.python.org/pypi/edc-label
     
-.. |travis| image:: https://travis-ci.org/clinicedc/edc-label.svg?branch=develop
-    :target: https://travis-ci.org/clinicedc/edc-label
+.. |travis| image:: https://travis-ci.com/clinicedc/edc-label.svg?branch=develop
+    :target: https://travis-ci.com/clinicedc/edc-label
     
-.. |coverage| image:: https://coveralls.io/repos/github/clinicedc/edc-label/badge.svg?branch=develop
-    :target: https://coveralls.io/github/clinicedc/edc-label?branch=develop
+.. |codecov| image:: https://codecov.io/gh/clinicedc/edc-label/branch/develop/graph/badge.svg
+  :target: https://codecov.io/gh/clinicedc/edc-label
+
+.. |downloads| image:: https://pepy.tech/badge/edc-label
+   :target: https://pepy.tech/project/edc-label
