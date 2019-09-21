@@ -28,7 +28,9 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         'django.contrib.staticfiles',
         'django.contrib.sites',
         'edc_auth.apps.AppConfig',
+        'edc_identifier.apps.AppConfig',
         'edc_notification.apps.AppConfig',
+        'edc_sites.apps.AppConfig',
         'edc_label.apps.AppConfig'
     ],
     add_dashboard_middleware=True,
