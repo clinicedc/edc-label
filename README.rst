@@ -49,14 +49,19 @@ For example::
 
 
 Add an IP addressable remote printer 
-+++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++
 
 ``PRINTER_NAME``: printer as named on the EDC, your server
 
 ``REMOTE_IP_ADDRESS``: IP of remote printer
 
+For example::
+
 	lpadmin -p PRINTER_NAME -E -v ipp://REMOTE_IP_ADDRESS/ipp/print -m everywhere
 
+
+
+See also http://labelary.com/viewer.html
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-label.svg
