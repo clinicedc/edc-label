@@ -64,16 +64,19 @@ For example::
 	lpadmin -p specimen_reception_label_printer -E -v ipp://154.70.150.42/printers/specimen_reception_label_printer
 
 
-Add a remote printer by IP to your CUPS server
-++++++++++++++++++++++++++++++++++++++++++++++
-
-``LOCAL_PRINTER_NAME``: printer as named on the EDC, your server
+Add an IP addressable remote printer 
+++++++++++++++++++++++++++++++++++++
 
 ``REMOTE_CUPS_IP_ADDRESS``: printer IP installed on remote CUPS server
 
 	lpadmin -p LOCAL_PRINTER_NAME -E -v ipp://REMOTE_CUPS_IP_ADDRESS/ipp/print -m everywhere
 
+For example::
 
+	lpadmin -p PRINTER_NAME -E -v ipp://REMOTE_IP_ADDRESS/ipp/print -m everywhere
+
+
+See also http://labelary.com/viewer.html
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-label.svg
