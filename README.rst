@@ -1,4 +1,4 @@
-|pypi| |travis| |codecov| |downloads|
+|pypi| |actions| |codecov| |downloads|
 
 
 edc-label
@@ -29,7 +29,7 @@ Install CUPS Print Server::
 	sudo apt-get install cups
 
 	sudo cp /etc/cups/cupsd.conf /etc/cups/cupsd.conf.original
-	
+
 	sudo chmod a-w /etc/cups/cupsd.conf.original
 
 Edit ``/etc/cups/cupsd.conf`` to listen on your public IP::
@@ -64,7 +64,7 @@ For example::
 	lpadmin -p specimen_reception_label_printer -E -v ipp://154.70.150.42/printers/specimen_reception_label_printer
 
 
-Add an IP addressable remote printer 
+Add an IP addressable remote printer
 ++++++++++++++++++++++++++++++++++++
 
 ``REMOTE_CUPS_IP_ADDRESS``: printer IP installed on remote CUPS server
@@ -81,10 +81,10 @@ See also http://labelary.com/viewer.html
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-label.svg
     :target: https://pypi.python.org/pypi/edc-label
-    
-.. |travis| image:: https://travis-ci.com/clinicedc/edc-label.svg?branch=develop
-    :target: https://travis-ci.com/clinicedc/edc-label
-    
+
+.. |actions| image:: https://github.com/clinicedc/edc-label/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-label/actions?query=workflow:build
+
 .. |codecov| image:: https://codecov.io/gh/clinicedc/edc-label/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/clinicedc/edc-label
 
