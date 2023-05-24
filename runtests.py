@@ -30,6 +30,7 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         "django.contrib.messages",
         "django.contrib.staticfiles",
         "django.contrib.sites",
+        "django_crypto_fields.apps.AppConfig",
         "edc_auth.apps.AppConfig",
         "edc_identifier.apps.AppConfig",
         "edc_notification.apps.AppConfig",
