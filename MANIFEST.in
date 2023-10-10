@@ -4,3 +4,4 @@ include *.rst
 recursive-include edc_label/templates *
 recursive-include edc_label/static *
 recursive-include label_templates *
+include */locale/*/LC_MESSAGES/*.mo
