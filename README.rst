@@ -82,8 +82,8 @@ See also http://labelary.com/viewer.html
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-label.svg
     :target: https://pypi.python.org/pypi/edc-label
 
-.. |actions| image:: https://github.com/clinicedc/edc-label/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/clinicedc/edc-label/actions?query=workflow:build
+.. |actions| image:: https://github.com/clinicedc/edc-label/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/clinicedc/edc-label/actions/workflows/build.yml
 
 .. |codecov| image:: https://codecov.io/gh/clinicedc/edc-label/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/clinicedc/edc-label
